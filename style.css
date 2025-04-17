@@ -21,6 +21,10 @@ header .logo {
     font-size: 24px;
 }
 
+header ul li {
+    font-size: 18px;
+}
+
 .hero {
     display: flex;
     justify-content: space-around;
