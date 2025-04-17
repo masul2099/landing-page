@@ -36,6 +36,10 @@ a {
     height: 300px;
 }
 
+.hero .text {
+    width: 370px;
+}
+
 .hero .text h1 {
     font-size: 48px;
     font-weight: 900;
