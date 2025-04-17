@@ -29,3 +29,7 @@ header, .hero {
 a {
     color: white;
 }
+
+.hero {
+    height: 300px;
+}
