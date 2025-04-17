@@ -33,8 +33,8 @@ header, .hero {
     color: white;
 }
 
-.hero {
-    height: 390px;
+section {
+    height: 350px;
 }
 
 .hero .text {
@@ -70,4 +70,44 @@ header, .hero {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.information .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    width: 140px;
+}
+
+.card .image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    border: #3882F6 solid 4px;
+}
+
+.card p {
+    color: rgb(120, 128, 138);
 }
