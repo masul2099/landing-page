@@ -5,3 +5,27 @@
     list-style-type: none;
     font-family: Roboto;
 }
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+header, .hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+a {
+    color: white;
+}
