@@ -70,3 +70,12 @@ a {
     background-color: #3882F6;
     color: white;
 }
+
+.hero .image {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
