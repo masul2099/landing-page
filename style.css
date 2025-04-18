@@ -111,3 +111,13 @@ section {
 .card p {
     color: rgb(120, 128, 138);
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container {
+   width: 345px;   
+}
