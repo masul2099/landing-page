@@ -157,3 +157,12 @@ section {
 .action .container .signup {
     border: 2px solid white ;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
