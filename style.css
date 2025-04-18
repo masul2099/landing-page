@@ -55,7 +55,7 @@ section {
     color: #E5E7EB;
 }
 
-.hero .text .signup {
+.signup {
     font-size: 16px;
     border-radius: 8px;
     padding: 6px 28px;
@@ -135,4 +135,25 @@ section {
     text-align: right; 
     font-size: 24px;
     font-weight: 900; 
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.action .container .signup {
+    border: 2px solid white ;
 }
