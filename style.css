@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +14,17 @@ ul {
     gap: 16px;
 }
 
-header {
+header .container {
     display: flex;
-    justify-content: space-around;
-    padding: 12px;
+    justify-content: space-between;
+    padding: 12px 0px;
 }
+
+header .container, .hero .container {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
 
 header .logo {
     font-size: 24px;
@@ -24,7 +32,14 @@ header .logo {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
